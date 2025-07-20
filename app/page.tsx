@@ -996,7 +996,7 @@ const sendEmail = async (e: React.FormEvent) => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-slate-700 dark:text-slate-300">
-                  <p>+234 801 234 5678</p>
+                  <p>+234 903 237 7692</p>
                   <Button variant="link" className="px-0 py-0 h-auto text-blue-600 dark:text-blue-400" asChild>
                     <a href="tel:+2348012345678">Call Me</a>
                   </Button>
@@ -1009,7 +1009,7 @@ const sendEmail = async (e: React.FormEvent) => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-slate-700 dark:text-slate-300">
-                  <p>FCT, Nigeria</p>
+                  <p>Federal Capital Territory, Nigeria</p>
                 </CardContent>
               </Card>
               <div className="flex space-x-4">
