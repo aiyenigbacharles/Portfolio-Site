@@ -880,6 +880,13 @@ const sendEmail = async (e: React.FormEvent) => {
                 demoUrl: "https://saidi-nigeria-ltd.vercel.app/",
                 image: "/images/Saidi site.png",
               },
+              {
+                title: "OptiTech Consulting Limited",
+                description: "OptiTech Consulting Limited is a trusted IT solutions provider, offering expert training, infrastructure, and advisory services to individuals, businesses, and government institutions.",
+               technologies: ["Vite", "React", "Javascript", "Tailwind CSS", "shadcn/ui"],
+                demoUrl: "https://optitech-consulting-ltd.vercel.app/",
+                image: "/images/OptiTech.png",
+              },
             ].map((project, index) => (
               <Card
                 key={index}
