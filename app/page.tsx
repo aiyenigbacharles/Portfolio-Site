@@ -196,7 +196,7 @@ const sendEmail = async (e: React.FormEvent) => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-full blur-2xl opacity-30 animate-pulse"></div>
                 <Image
-                  src="/images/Charles.png"
+                  src="/images/Charles Pro 2.png"
                   alt="Charles Aiyenigba"
                   width={400}
                   height={400}
@@ -225,7 +225,7 @@ const sendEmail = async (e: React.FormEvent) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <Image
-                src="/images/Me4.png"
+                src="/images/Charles Pro 3.png"
                 alt="About Charles"
                 width={600}
                 height={500}
@@ -574,6 +574,12 @@ const sendEmail = async (e: React.FormEvent) => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
+                title: "When Your Biggest Critic Lives in Your Head",
+                platform: "Medium • 2025",
+                description: "A personal account of overcoming Impostor Syndrome, sharing struggles, lessons learned, and strategies for managing self-doubt and building confidence.",
+                link: "https://medium.com/@silvacharles156/when-your-biggest-critic-lives-in-your-head-9b46dd60c9f9"
+              },
+              {
                 title: "Run your ChatBot Locally (No Data, No Problem)",
                 platform: "Medium • 2025",
                 description:
@@ -886,6 +892,20 @@ const sendEmail = async (e: React.FormEvent) => {
                technologies: ["Vite", "React", "Javascript", "Tailwind CSS", "shadcn/ui"],
                 demoUrl: "https://optitech-consulting-ltd.vercel.app/",
                 image: "/images/OptiTech.png",
+              },
+              {
+                title: "Fertility Window Predictor",
+                description: "This Webapp focuses on calculating or predicting fertility windows using Physiological and Menstrual cycle data which helps individuals make informed family planning choices.",
+               technologies: ["Python", "Numpy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Streamlit"],
+                demoUrl: "https://fertility-window-fvwjiywjqx6r8d4zlumhmm.streamlit.app/",
+                image: "/images/Fertility Window.png",
+              },
+             {
+                title: "Hepatitis B Prediction System",
+                description: "This Webapp focuses on predicting Hepatitis B infection using machine learning ensemble techniques which aims to support health professionals or researchers by providing predictive insights for Hepatitis B.",
+               technologies: ["Pandas", "Numpy", "Matplotlib", "Seaborn", "Scikit-learn", "Streamlit", "Joblib"],
+                demoUrl: "https://hepatitis-b-prediction-a8hkam5vpqdviwvxf4nuak.streamlit.app/",
+                image: "/images/Hepatitis-B.png",
               },
             ].map((project, index) => (
               <Card
