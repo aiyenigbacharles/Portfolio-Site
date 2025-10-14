@@ -1010,7 +1010,7 @@ const sendEmail = async (e: React.FormEvent) => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-slate-700 dark:text-slate-300">
-                  <p>silvacharles156@gmail.com</p>
+                  <p>charlesaiyenigba3@gmail.com</p>
                   <Button variant="link" className="px-0 py-0 h-auto text-blue-600 dark:text-blue-400" asChild>
                     <a href="mailto:charles.aiyenigba@example.com">Send an email</a>
                   </Button>
