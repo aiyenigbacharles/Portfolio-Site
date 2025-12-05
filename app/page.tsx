@@ -665,6 +665,14 @@ const sendEmail = async (e: React.FormEvent) => {
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
+                            {
+                title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+                issuer: "Oracle",
+                year: "2025",
+                image: "/images/Oracle.png",
+                verifyUrl: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=C64018E83F6C7B5B23C3978B1FD1CE5149E6C9957A82AB37EF66EF45DBF5E1CA",
+                description: "A comprehensive understanding of Oracle Cloud Infrastructure (OCI) covering core services, security, billing, and governance. My skills include cloud computing models (IaaS, PaaS, SaaS) and OCI services: Compute, Storage, Networking, Database, Developer, Analytics, AI, Observability, and Hybrid.",
+              },
               {
                 title: "Applied Data Science",
                 issuer: "WorldQuant University",
